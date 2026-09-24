@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
+.App{
+    background-color: rgb(230, 228, 228);
+    margin-top: 40px;
+    padding: 40px;
+    justify-self: center;
+    width: 50%;
+   
+    border-radius: 20px;
+    box-shadow: 4px 8px 12px rgb(0,0,0,0.4);
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App h2{
+    font-size: 35px;
+    text-align: center;
+    border-bottom:1px solid #000000 ;
+    
 }
+.inputText{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-shadow:2px 4px 6px rgb(0,0,0,0.4) ;
+    border-radius: 10px;
+    width: 75%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.App ul li{
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    width: 350px;
+    overflow-wrap:break-word ;    
 }
+.App ul li:hover{
+cursor: pointer;   
+color: brown;
+background-color: rgb(141, 147, 147);
+border-radius: 20px;
+}
+.addBtn{
+  
+    width: 25%;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.addBtn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+}
+.controls{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+   display: flex;
+   
+}
+.done{
+text-decoration: line-through;
+}
+.list-item{
+    padding-left: 50px;
+    display: flex;
+}
+.list-item span{
+    padding: 10px;
+    align-self: center;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0,0,0,0.4);
+}
+.list-item span:hover{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: rgb(249, 42, 42);
+    transform: translateY(-5px);
 }
